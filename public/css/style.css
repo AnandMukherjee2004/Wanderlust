@@ -1,0 +1,147 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    margin-block: 1rem !important;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* footer */
+
+.foot-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.foot-info-links a:hover {
+    text-decoration: underline;
+}
+
+.foot-info-links,
+.foot-info-socials,
+.foot-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.foot-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+}
+
+/* cards */
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* overlay effect */
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new-form */
+
+.new-form {
+    padding-block: 2rem;
+}
+
+.add-btn {
+    background-color: #fe424d !important;
+    color: white;
+    border: none !important;
+    transition: all ease 0.2;
+}
+
+.add-btn:hover {
+    transform: scale(1.025);
+}
+
+/* show page */
+
+.show-img {
+    height: 30vh;
+    margin-block: 0.75rem;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.btns a {
+    width: 100%;
+    margin-inline-end: 10px;
+}
+
+.btns form button {
+    width: 100%;
+}
+
+/* Map */
+
+#map {
+    height: 400px;
+    width: 80vhpx;
+}
